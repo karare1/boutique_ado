@@ -84,7 +84,9 @@ a.category-badge > span.badge:hover {
     right: 10px;
 }
 
-.btt-link {
+.btt-link,
+.update-link,
+.remove-item {
     cursor: pointer;
 }
 
@@ -110,6 +112,8 @@ a.category-badge > span.badge:hover {
     background: #222;
     color: white;
 }
+
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
